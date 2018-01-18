@@ -24,7 +24,7 @@ TEST(testMath, myCubeTest)
     EXPECT_CALL(mockObj, getB())
       .Times(1)
       .WillOnce(Return(10));
-    EXPECT_EQ(110,mockObj.getB());
+    EXPECT_EQ(10,mockObj.getB());
 
 }
 
